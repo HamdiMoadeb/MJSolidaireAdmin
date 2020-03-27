@@ -1,4 +1,4 @@
-package com.ndroid.elaliasolidaireadmin
+package com.ndroid.mjsolidaireadmin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.View
 import com.google.firebase.database.*
 import com.ndroid.elaliasolidaire.Service
 import com.ndroid.elaliasolidaire.ServiceAdapter
+import com.ndroid.mjsolidaireadmin.R
 import kotlinx.android.synthetic.main.activity_services_list.*
 
 class ServicesListActivity : AppCompatActivity() {
@@ -16,6 +17,12 @@ class ServicesListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_services_list)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+
+    }
+
+    override fun onStart() {
+        super.onStart()
 
         var servicesData = arrayListOf<Service>()
         val servicesAdapter = ServiceAdapter(this)
@@ -74,7 +81,6 @@ class ServicesListActivity : AppCompatActivity() {
                 }
             }
         })
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

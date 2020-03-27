@@ -1,4 +1,4 @@
-package com.ndroid.elaliasolidaireadmin
+package com.ndroid.mjsolidaireadmin
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +8,7 @@ import android.view.MenuItem
 import android.view.View
 import com.google.firebase.database.FirebaseDatabase
 import com.ndroid.elaliasolidaire.Service
+import com.ndroid.mjsolidaireadmin.R
 import kotlinx.android.synthetic.main.activity_service_details.*
 
 class ServiceDetailsActivity : AppCompatActivity() {

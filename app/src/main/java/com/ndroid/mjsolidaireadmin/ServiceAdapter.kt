@@ -11,8 +11,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.google.firebase.database.FirebaseDatabase
-import com.ndroid.elaliasolidaireadmin.R
-import com.ndroid.elaliasolidaireadmin.ServiceDetailsActivity
+import com.ndroid.mjsolidaireadmin.R
+import com.ndroid.mjsolidaireadmin.ServiceDetailsActivity
 import java.util.*
 import kotlin.collections.ArrayList
 

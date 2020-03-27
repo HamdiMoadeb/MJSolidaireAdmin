@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ServicesListActivity">
+    tools:context="com.ndroid.mjsolidaireadmin.ServicesListActivity">
 
     <ListView
         android:id="@+id/servicesList"
